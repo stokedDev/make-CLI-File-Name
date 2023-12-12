@@ -1,3 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container{
     width: 318px;
+}
+code{
+    background: rgba(255, 236, 179, 0.9);
+}
+@media(min-width: 480px){
+    .container{
+        width: 475px;
+    }
 }
